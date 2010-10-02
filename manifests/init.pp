@@ -7,10 +7,8 @@
 #  By Sean Porter, Gastown Labs Inc.
 #
 # Actions:
-#  - adds to the apt repository list
-#  - installs and configures the Server Density monitoring agent, sd-agent
-#
-# Requires:
+#  - Adds to the apt repository list
+#  - Installs and configures the Server Density monitoring agent, sd-agent
 #
 # Sample Usage (Monitoring MongoDB):
 #  include serverdensity
