@@ -21,4 +21,5 @@ Sample Usage (Monitoring MongoDB):
 	
 ## CHANGELOG ##
 - v0.0.1 : Hello World
-- v0.0.2 : Monitor MongoDB, install the dependencies 
+- v0.0.2 : Monitor MongoDB, install the dependencies
+- v0.0.3 : Readme, minor spacing fix
