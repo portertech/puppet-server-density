@@ -40,7 +40,7 @@ class serverdensity {
 
 		file { "/etc/sd-agent/config.cfg":
 			content => template("serverdensity/config.cfg.erb"),
-		    mode => "0644",
+			mode => "0644",
 			require => Package["sd-agent"],
 		}
 		
