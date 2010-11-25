@@ -1,6 +1,6 @@
 # Server Density Module #
 Author	: Sean Porter <sean@gastownlabs.com>
-Version	: 0.0.2
+Version	: 0.0.4
 Licence : Apache
 
 Module for installing and configuring the Server Density monitoring agent: http://www.serverdensity.com/
@@ -13,7 +13,7 @@ Sample Usage (Monitoring MongoDB):
 		include serverdensity::pymongo
 		# Setup the Server Density agent, including the address of MongoDB
 		include serverdensity
-		serverdensity::setup { "server-density-subdomain":
+		serverdensity::config { "server-density-subdomain":
 			agent_key => "b82e833n4o9h189a352k8ds67725g3jy",
 			options => ["mongodb_server: localhost"],
 		}
@@ -23,3 +23,4 @@ Sample Usage (Monitoring MongoDB):
 - v0.0.1 : Hello World
 - v0.0.2 : Monitor MongoDB, install the dependencies
 - v0.0.3 : Readme, minor spacing fix
+- v0.0.4 : Changed definition name

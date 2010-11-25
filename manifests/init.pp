@@ -13,13 +13,13 @@
 # Sample Usage (Monitoring MongoDB):
 #  include serverdensity
 #
-#  serverdensity::setup { "server-density-subdomain":
+#  serverdensity::config { "server-density-subdomain":
 #    agent_key => "b82e833n4o9h189a352k8ds67725g3jy",
 #    options => ["mongodb_server: localhost"],
 #  }
 #
 class serverdensity {
-	define setup ( $agent_key, $options=[""] ) {
+	define config ( $agent_key, $options=[""] ) {
 		exec { "server-density-apt-key":
 			path => "/bin:/usr/bin",
 			command => "wget http://www.serverdensity.com/downloads/boxedice-public.key -O - | apt-key add -",
