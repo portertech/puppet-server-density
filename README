@@ -1,11 +1,11 @@
 # Server Density Module #
-Author	: Sean Porter <sean@gastownlabs.com>
+Author	: Sean Porter <portertech@gmail.com>
 Version	: 0.0.4
 Licence : Apache
 
 Module for installing and configuring the Server Density monitoring agent: http://www.serverdensity.com/
 
-We suggest using an AMI provided by: http://alestic.com/
+I suggest using an AMI provided by: http://alestic.com/
 
 Sample Usage (Monitoring MongoDB):
 	node 'puppet.domain.com' {

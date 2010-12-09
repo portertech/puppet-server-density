@@ -4,7 +4,7 @@
 #
 # Notes:
 #  This class is Ubuntu/Debian specific for now.
-#  By Sean Porter, Gastown Labs Inc.
+#  By Sean Porter <portertech@gmail.com>
 #
 # Actions:
 #  - Adds to the apt repository list
